@@ -32,6 +32,7 @@ const totalRevenue = function(array) {
     if (i === arr.length - 1) {
       agg += el.revenue;
     }
+    return agg;
   })
-  return agg;
+
 }
