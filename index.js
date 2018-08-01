@@ -37,10 +37,5 @@ const totalRevenue = function(array) {
 }
 
 const averageRevenue = function(array) {
-  return array.reduce(function(agg, el, i, arr) {
-    if (i < arr.length) {
-      agg += el.revenue;
-    }
-    return (agg / array.length);
-  }, 0)
+  return (totalRevenue() / array.length);
 }
