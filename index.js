@@ -34,4 +34,5 @@ const totalRevenue = function(array) {
     }
     return agg;
   }
+  
 }
