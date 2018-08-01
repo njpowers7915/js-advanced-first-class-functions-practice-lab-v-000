@@ -35,3 +35,12 @@ const totalRevenue = function(array) {
     return agg;
   }, 0)
 }
+
+const averageRevenue = function(array) {
+  return array.reduce(function(agg, el, i, arr) {
+    if (i < arr.length) {
+      agg += el.revenue;
+    }
+    return (agg / arr.length);
+  }, 0)
+}
