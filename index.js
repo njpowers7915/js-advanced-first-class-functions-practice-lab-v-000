@@ -43,5 +43,5 @@ const averageRevenue = function(array) {
     }
     return agg;
   }, 0)
-  return agg / array.length;
+  return (agg / array.length);
 }
