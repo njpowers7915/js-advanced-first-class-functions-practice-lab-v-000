@@ -31,5 +31,5 @@ const totalRevenue = function(array) {
   array.reduce(function(agg, el, i, array), 0) {
     agg + el.revenue;
   }
-  return agg
+  return agg;
 }
