@@ -33,9 +33,3 @@ const totalRevenue = function(array) {
   }
   return total;
 }
-
-  let element = el.name + el.revenue;
-  if (i === array.length - 1) {
-    a
-  }
-}
