@@ -26,3 +26,16 @@ const driversByName = function(array) {
     return a.name.localeCompare(b.name);
   });
 }
+
+const totalRevenue = function(array) {
+  array.reduce(function(total, driver)) {
+    total + driver.revenue;
+  }
+  return total;
+}
+
+  let element = el.name + el.revenue;
+  if (i === array.length - 1) {
+    a
+  }
+}
